@@ -19,7 +19,8 @@ class hexatools:
         es_primo = True
         if a == 1: return es_primo
         for n in range(2,a):
-            if(a % n == 0):es_primo = False
+            if(a % n == 0):
+                es_primo = False
         return es_primo
     
     def valor_modal(self):
